@@ -12,15 +12,13 @@ $(document).on("form-load form-refresh", function() {
             // اگر شمسی فعال باشد، Persian datepicker را attach کنیم
             if (settings.custom_enable_shamsi_jalali_calendar && settings.custom_date_storage_format === "Persian (شمسی)") {
                 frappe.require("/assets/jalali_shamsi_datepicker/js/topersian_date.js", function() {
-                    console.log("Persian datepicker1 loaded dynamically");
                 });
                 frappe.require("/assets/jalali_shamsi_datepicker/js/togregorian_date.js", function() {
-                    console.log("Persian datepicker2 loaded dynamically");
                 });
                 frappe.require("/assets/jalali_shamsi_datepicker/js/in_words_cleanup.js", function() {
-                    console.log("Persian datepicker5 loaded dynamically");
                 });
-
+                frappe.require("/assets/jalali_shamsi_datepicker/css/custom.css", function() {
+                });
             } else {
                 // هیچ کاری نکن؛ ERPNext خودش datepicker را نشان می‌دهد
                 console.log("Persian datepicker غیرفعال، ERPNext datepicker طبیعی نمایش داده می‌شود");

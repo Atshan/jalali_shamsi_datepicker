@@ -14,7 +14,6 @@ fixtures = [
 
 app_include_css = [
     "/assets/jalali_shamsi_datepicker/css/persian-datepicker.min.css",
-    "/assets/jalali_shamsi_datepicker/css/custom.css"
 ]
 app_include_js = [
     "/assets/jalali_shamsi_datepicker/js/persian-date.min.js",
