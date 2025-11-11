@@ -12,6 +12,10 @@ fixtures = [
     {"doctype": "Custom Field"}
 ]
 
+patches = [
+    "jalali_shamsi_datepicker.patches.add_yyyy_mm_dd_date_format"
+]
+
 app_include_css = [
     "/assets/jalali_shamsi_datepicker/css/persian-datepicker.min.css",
     "/assets/jalali_shamsi_datepicker/css/custom.css"
