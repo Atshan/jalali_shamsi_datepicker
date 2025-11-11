@@ -27,5 +27,3 @@ app_include_js = [
     "/assets/jalali_shamsi_datepicker/js/topersian_date.js",
     "/assets/jalali_shamsi_datepicker/js/in_words_cleanup.js"
 ]
-
-app_post_install = "jalali_shamsi_datepicker.install.post_install"
