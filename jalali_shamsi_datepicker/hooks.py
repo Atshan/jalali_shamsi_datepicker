@@ -9,7 +9,7 @@ app_license = "MIT"
 
 # jalali_shamsi_datepicker/hooks.py
 fixtures = [
-    {"doctype": "Custom Field", "filters": {"module": "Jalali Shamsi Datepicker"}}
+    {"doctype": "Custom Field"}
 ]
 
 app_include_css = [
